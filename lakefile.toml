@@ -1,0 +1,20 @@
+name = "AutomationDebugging"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["AutomationDebugging"]
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+relaxedAutoImplicit = false
+linter.unusedVariables = true
+linter.unnecessarySimpa = true
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.0"
+
+[[lean_lib]]
+name = "AutomationDebugging"
+globs = ["AutomationDebugging", "AutomationDebugging.+"]

@@ -1,0 +1,10 @@
+import AutomationDebugging.GoalMechanics
+import AutomationDebugging.Rewriting
+import AutomationDebugging.Simplification
+import AutomationDebugging.ArithmeticAutomation
+import AutomationDebugging.Search
+import AutomationDebugging.Coercions
+import AutomationDebugging.Typeclasses
+import AutomationDebugging.InductionFailures
+import AutomationDebugging.PerformanceTraps
+import AutomationDebugging.ReviewerCases

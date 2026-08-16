@@ -1,0 +1,11 @@
+/.lake
+/build
+/lake-packages
+*.olean
+*.ilean
+*.trace
+*.hash
+*.c
+.vscode/
+*~
+.DS_Store
